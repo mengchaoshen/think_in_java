@@ -10,6 +10,7 @@ public class Test {
 					replace("&gt;", ">").replace("&quot;", "\"").replaceAll("&apos;", "'");
 		}
 		return "";
+		
 	}
 	
 	public static String escapeXml(String sText) {
